@@ -40,3 +40,15 @@ import (
 
 如果名字以大写字母开头，那么它是导出的，外部包可导入引用。
 如果名字以写字母开头，那么它是不可导出的，外部不能引用。
+
+```go
+// 小写字母不可导出
+func random(n int) int {
+	return rand.Intn(n)
+}
+
+// 大写字母开头，可导出
+func Add(x int, y int) int {
+	return x+y
+}
+```
