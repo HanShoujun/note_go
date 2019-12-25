@@ -15,7 +15,7 @@ func TestFibList(t *testing.T) {
 	b := 1
 
 	t.Log(a)
-	for i:=0; i<5 ; i++ {
+	for i := 0; i < 5; i++ {
 		t.Log(" ", b)
 		var tmp = a
 		a = b
