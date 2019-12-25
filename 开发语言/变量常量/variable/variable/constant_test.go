@@ -1,4 +1,4 @@
-package variable
+package main
 
 import "testing"
 
@@ -23,5 +23,5 @@ func TestConstant2(t *testing.T) {
 	//a := 2 //0010
 	//a := 3 //0011
 	a := 7 //0111
-	t.Log(a & Readable == Readable, a & Writable == Writable, a & Executable == Executable)
+	t.Log(a&Readable == Readable, a&Writable == Writable, a&Executable == Executable)
 }
