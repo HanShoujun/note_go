@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"strings"
 )
 
@@ -66,4 +67,31 @@ func main() {
 		fmt.Printf("%v(%c) ", r, r)
 	}
 	fmt.Println()
+
+	fmt.Println("*************************")
+
+	changeString()
+
+	sqrtDemo()
+}
+
+func changeString() {
+	s1 := "big"
+	// 强制类型转换
+	byteS1 := []byte(s1)
+	byteS1[0] = 'p'
+	fmt.Println(string(byteS1))
+
+	s2 := "白萝卜"
+	runeS2 := []rune(s2)
+	runeS2[0] = '红'
+	fmt.Println(string(runeS2))
+}
+
+func sqrtDemo() {
+	var a, b = 3, 4
+	var c int
+	// math.Sqrt()接收的参数是float64类型，需要强制转换
+	c = int(math.Sqrt(float64(a*a + b*b)))
+	fmt.Println(c)
 }
