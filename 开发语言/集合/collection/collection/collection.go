@@ -1,0 +1,35 @@
+package main
+
+import "fmt"
+
+func main() {
+	array := []int{1, 2, 3, 4, 5}
+	slice := array[2:4]
+	for i, v := range slice {
+		fmt.Println(i, v)
+	}
+	slice = append(slice, 8)
+	fmt.Printf("%p, %d, %d \n",slice, len(slice), cap(slice))
+	slice = append(slice, 80)
+	fmt.Printf("%p, %d, %d \n",slice, len(slice), cap(slice))
+	fmt.Println(array)
+
+	slice2 := array[:3]
+	fmt.Println(slice2, len(slice2), cap(slice2))
+
+	slice3 := slice2[:2]
+	fmt.Println(slice3, len(slice3), cap(slice3))
+
+	slice3[0] = 100
+
+	fmt.Println(slice3)
+	fmt.Println(slice2)
+	fmt.Println(array)
+
+	slice4 := array[:3]
+	fmt.Printf("%p,%v \n",&slice4[1], slice4)
+	slice4 = append(slice4[:1], slice4[2:]...)
+	fmt.Printf("%p,%v \n",&slice4[1], slice4)
+	fmt.Println(array)
+
+}
