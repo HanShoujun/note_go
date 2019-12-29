@@ -32,4 +32,13 @@ func main() {
 	fmt.Printf("%p,%v \n",&slice4[1], slice4)
 	fmt.Println(array)
 
+	m := make(map[string]int, 2)
+	fmt.Printf("%p %v \n", m, m)
+	m["first"] = 1
+	fmt.Printf("%p %v \n", m, m)
+	m["second"] = 2
+	m["third"] = 3
+	fmt.Printf("%p %v \n", m, m)
+
+
 }
