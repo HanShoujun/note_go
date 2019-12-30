@@ -3,7 +3,19 @@ package main
 import "fmt"
 
 func main() {
+
+	// 数组定义： var name [n]T
+	// n 为正整数。
+	var a [0]int // 数组类型为[3]int
+	var b [4]int // 数组类型为[4]int
+	//a = b //不可以这样做，因为此时a和b是不同的类型
+
+	fmt.Printf("%T   %T  \n",a,b)
+
 	array := []int{1, 2, 3, 4, 5}
+	temp := array
+	fmt.Printf("%T %p \n", array, array)
+	fmt.Printf("%T %p \n", temp, temp)
 	slice := array[2:4]
 	for i, v := range slice {
 		fmt.Println(i, v)
