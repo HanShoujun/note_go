@@ -25,7 +25,7 @@ func foo() int {
 }
 // 多个参数
 func add(x int, y int) int {
-    ret x+y
+    return x+y
 }
 // 无返回
 func printSome(n int) {
