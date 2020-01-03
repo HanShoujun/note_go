@@ -1,9 +1,22 @@
 package other
 
-import "math/rand"
+import (
+	"fmt"
+	"math/rand"
+	"package/tool"
+)
+
+func init() {
+	fmt.Println("other package init")
+}
 
 // 小写字母不可导出
 func random(n int) int {
+	network := tool.Network{
+		Name:"www.baidu.com",
+
+	}
+	network.FindByName("Baidu")
 	return rand.Intn(n)
 }
 

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1eb2ed54-3a73-47ad-a34b-73acd86ea1da" name="Default Changelist" comment="" />
+    <list default="true" id="1eb2ed54-3a73-47ad-a34b-73acd86ea1da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/other.go" beforeDir="false" afterPath="$PROJECT_DIR$/other/other.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,16 +50,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577172004930" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build packages.go">
     <configuration name="go build packages.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="package" />
       <working_directory value="$PROJECT_DIR$" />
@@ -66,6 +72,21 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build tool.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="package" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/tool/tool.go" />
+      <package value="package" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build packages.go" />
+        <item itemvalue="Go Build.go build tool.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -103,6 +124,26 @@
     <proxy>direct</proxy>
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="140" key="#go_build_tool.go" timestamp="1578046776699">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="552" y="140" key="#go_build_tool.go/0.23.1680.959@0.23.1680.959" timestamp="1578046776699" />
+    <state width="1438" height="254" key="GridCell.Tab.0.bottom" timestamp="1578046827402">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state width="1438" height="254" key="GridCell.Tab.0.bottom/0.23.1680.959@0.23.1680.959" timestamp="1578046827402" />
+    <state width="1438" height="254" key="GridCell.Tab.0.center" timestamp="1578046827401">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state width="1438" height="254" key="GridCell.Tab.0.center/0.23.1680.959@0.23.1680.959" timestamp="1578046827401" />
+    <state width="1438" height="254" key="GridCell.Tab.0.left" timestamp="1578046827401">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state width="1438" height="254" key="GridCell.Tab.0.left/0.23.1680.959@0.23.1680.959" timestamp="1578046827401" />
+    <state width="1438" height="254" key="GridCell.Tab.0.right" timestamp="1578046827402">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state width="1438" height="254" key="GridCell.Tab.0.right/0.23.1680.959@0.23.1680.959" timestamp="1578046827402" />
     <state x="519" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1577175621763">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
